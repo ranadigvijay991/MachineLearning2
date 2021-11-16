@@ -37,7 +37,6 @@ for i in range(trials):
     model.fit(x, y)
     non_nested_scores[i] = model.best_score_
     
-    
     # Nested CV with parameter optimization
     model = GridSearchCV(estimator= Ridge(), param_grid = tuned_parameters, cv=inner_cv, scoring= score)
     nested_score = cross_val_score(model, X=x, y=y, cv=outer_cv)
