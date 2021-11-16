@@ -12,7 +12,7 @@ from sklearn.model_selection import GridSearchCV,KFold,cross_val_score
 from sklearn.linear_model import Ridge
 
 #%%
-#make Regression
+#make Regression to make dataset
 x,y = make_regression(n_samples=1000, n_features=4, shuffle = True,random_state=30)
 
 print(x.shape)
