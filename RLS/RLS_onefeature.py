@@ -18,5 +18,4 @@ Xwb = np.c_[np.ones((100,1)), X]
 W = Xwb.T.dot(Xwb)
 W = np.linalg.inv(W)
 W = (W.dot(Xwb.T)).dot(y)
-
 print(W)
