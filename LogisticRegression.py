@@ -14,6 +14,7 @@ X,y = make_classification(n_samples=1000, n_features=1, n_informative=1,
         n_redundant=0, n_repeated=0,n_classes=2,n_clusters_per_class=1)
 print(X)
 print(y)
+
 #%%
 print(X.shape,y.shape)
 #%%
