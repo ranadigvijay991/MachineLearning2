@@ -16,7 +16,6 @@ print(X)
 print(y)
 #%%
 print(X.shape,y.shape)
-
 #%%
 #Visualization
 plt.scatter(X,y)
