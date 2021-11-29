@@ -35,7 +35,7 @@ model.fit(X_train,y_train)
 #%%
 #Predicting
 y_pred = model.predict(X_test)
-print(y_pred)
+#print(y_pred)
 
 #%%
 #Accuracy Score
@@ -67,3 +67,4 @@ m = y_test.shape[0]
 c = -(1/m) * np.sum((y_test * np.log(y_p)) + ((1 - y_test) * np.log(1 - y_p)))
 
 print('cost : ',c)
+#This cost function is yet to be edited
