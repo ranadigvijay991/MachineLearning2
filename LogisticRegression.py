@@ -47,7 +47,8 @@ print(acc)
 print(f"ACCURACY : {acc*100}%")
 print("CONFUSION MATRIX : \n",confusion_matrix(y_test, y_pred))
 
-#%%
+#%% 
+
 w = [0.0, 0.0]
 w = np.reshape(w,(2,1))
 y_p = np.dot(X,w)
