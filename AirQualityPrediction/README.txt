@@ -3,3 +3,4 @@ In the following example I used 3 types of Regressors to compare the different R
 - Random Forest Regressor
 - SVR
 
+You can Try other Regressor also.
